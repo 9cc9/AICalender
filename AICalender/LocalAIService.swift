@@ -5,7 +5,7 @@ class LocalAIService {
     private let apiURL = "http://121.48.164.125/v1/chat-messages"
     // 添加认证token
     private let authToken = "Bearer app-yg1oJwj78IjMcUTDBKh2K9Yo"
-    // 使用的模型名称
+    // 使用的模型名称，预留
     private let modelName: String
     
     // 系统提示词，与原AIService保持一致

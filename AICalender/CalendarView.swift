@@ -43,7 +43,7 @@ class CalendarView: UIView {
     private var days: [Date] = []
     private var isAnimating = false
     private var chatHistory: [(role: String, content: String)] = []
-    private let aiService = LocalAIService(modelName: "gpt-3.5-turbo")
+    private let aiService = QianwenService.shared
     
     private enum AnimationDirection {
         case up
